@@ -19,35 +19,44 @@ body{
 	line-height: 1.5;
 }
 
-h1{
+p{
+	margin-bottom: 1em;
+}
+
+h1,h2,h3,h4,h5,h6{
 	font-family: 'Lato', sans-serif;
+}
+
+h1{
 	font-weight: 300;
+	font-size: 2.5em;
+	line-height: 1;
 }
 
 h2{
-	font-family: 'Lato', sans-serif;
 	font-weight: 900;
-	font-size:1.5em;
+	font-size:1.8em;
+	line-height: 1.2;
 }
 
 h3{
-	font-family: 'Lato', sans-serif;
 	font-weight: 900;
-	font-size: 1.3em;
+	font-size: 1.4em;
+	line-height: 1.4;
 }
-
-
+/* 
+ Normally  you should use hex values to ensure cross browser compatability, but named colors are used here to make it clear what's what and encourage you to change them.
+*/
+a, a:link {
+	color: forestgreen;
+	text-decoration: none;
+}
+a:visited{
+	color: lightgreen;
+}
 a:hover, a:focus {
 	color: orange;
-}
-a:hover {
 	cursor: pointer;
 }
-a {
-	color: green;
-	text-decoration: none;
-	line-height: inherit;
-}
 
 
-/
